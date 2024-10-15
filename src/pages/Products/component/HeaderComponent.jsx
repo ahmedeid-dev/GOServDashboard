@@ -7,7 +7,7 @@ import { FaExpandArrowsAlt } from "react-icons/fa";
 import { FaHome } from "react-icons/fa"; 
 import { Link } from "react-router-dom";
 
-const HeaderComponent = () => {
+const HeaderComponent = ({label}) => {
   const [showModal, setShowModal] = useState(false);
   const handleShow = () => setShowModal(true);
   const handleClose = () => setShowModal(false);
@@ -20,7 +20,7 @@ const HeaderComponent = () => {
         <div className="nav-items">
           <FaHome className="nav-icon" /> 
           <Link to="/" className="nav-item-home">الرئيسية</Link>
-          <span className="nav-item">/ المنتجات</span>
+          <span className="nav-item">/ { label}</span>
         </div>
         <Button className="help-dropdown" onClick={handleShow}>
           <i className="sicon-life-ring mx-1"></i>المساعدة

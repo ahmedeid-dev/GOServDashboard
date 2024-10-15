@@ -181,139 +181,139 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <a href="#" className="sidebarLink ">
+            <Link to="/feedback" className="sidebarLink ">
               <TbMessageQuestion />
               الأسئلة والتقييمات
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="sidebarLink ">
+            <Link to="#" className="sidebarLink ">
               <LuNewspaper />
               الصفحات التعريفية
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="sidebarLink ">
+            <Link to="#" className="sidebarLink ">
               <TbSpeakerphone />
               الأدوات التسويقية
-            </a>
+            </Link>
           </li>
           {/* navigation headers */}
           <li className="mt-8 navHeader">
-            <a
-              href="#f"
+            <Link
+              to="#f"
               style={{
                 color: "#1e90ff",
                 fontWeight: "600",
               }}
             >
               قنوات البيع
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="sidebarLink ">
+            <Link to="#" className="sidebarLink ">
               <i class="sicon-mahally"></i>
               محلي
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="sidebarLink ">
+            <Link to="#" className="sidebarLink ">
               <i class="sicon-pos"></i>
               سلة بوينت
-            </a>
+            </Link>
           </li>
           {/* ادوات مسانده */}
           <li className="mt-8 navHeader">
-            <a
-              href="#f"
+            <Link
+              to="#f"
               style={{
                 color: "#1e90ff",
                 fontWeight: "600",
               }}
             >
               ادوات مسانده
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="sidebarLink ">
+            <Link to="#" className="sidebarLink ">
               <TbSpeakerphone />
               الأدوات التسويقية
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="sidebarLink ">
+            <Link to="#" className="sidebarLink ">
               الأدوات التسويقية
-            </a>
+            </Link>
           </li>
           {/* اعدادات */}
           <li className="mt-8 navHeader">
-            <a
-              href="#f"
+            <Link
+              to="#f"
               style={{
                 color: "#1e90ff",
                 fontWeight: "600",
               }}
             >
               قنوات البيع
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="sidebarLink ">
+            <Link to="#" className="sidebarLink ">
               <TbSpeakerphone />
               الأدوات التسويقية
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="sidebarLink ">
+            <Link to="#" className="sidebarLink ">
               الأدوات التسويقية
-            </a>
+            </Link>
           </li>
 
           {/* مظهر المنتج */}
           <li className="mt-8 navHeader">
-            <a
-              href="#f"
+            <Link
+              to="#f"
               style={{
                 color: "#1e90ff",
                 fontWeight: "600",
               }}
             >
               قنوات البيع
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="sidebarLink ">
+            <Link to="#" className="sidebarLink ">
               <TbSpeakerphone />
               الأدوات التسويقية
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="sidebarLink ">
+            <Link to="#" className="sidebarLink ">
               الأدوات التسويقية
-            </a>
+            </Link>
           </li>
           {/* متجر التطبيقات */}
           <li className="mt-8 navHeader">
-            <a
-              href="#f"
+            <Link
+              to="#f"
               style={{
                 color: "#1e90ff",
                 fontWeight: "600",
               }}
             >
               قنوات البيع
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="sidebarLink ">
+            <Link to="#" className="sidebarLink ">
               <TbSpeakerphone />
               الأدوات التسويقية
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="sidebarLink ">
+            <Link to="#" className="sidebarLink ">
               الأدوات التسويقية
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

@@ -42,7 +42,7 @@ const ProductsPage = (props) => {
         }}
       >
         <div className="headerComponent">
-          <HeaderComponent />
+          <HeaderComponent label={"المنتجات"} />
           <ProductHead
             showProductList={showProductList}
             hideProductList={hideProductList}

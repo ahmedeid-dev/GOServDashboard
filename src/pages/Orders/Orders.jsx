@@ -10,7 +10,7 @@ import { CiFilter } from "react-icons/ci";
 import { IoBagRemoveOutline } from "react-icons/io5";
 import Slider from "./component/Slider";
 import { PiMagicWand } from "react-icons/pi";
-import { IoMdCloseCircleOutline  } from "react-icons/io";
+import { IoMdCloseCircleOutline } from "react-icons/io";
 
 function Orders({ darkMode, setDarkMode }) {
   return (
@@ -21,7 +21,7 @@ function Orders({ darkMode, setDarkMode }) {
       <main className={`
           my-24 px-4 w-full flex flex-col overflow-hidden
           `}>
-        <HeaderComponent />
+        <HeaderComponent label={"الطلبات"} />
         <header className="flex flex-row justify-between  m-3">
           <div className="">
             <button className="flex flex-row  text-black items-center gap-2 rounded-pill px-10 bg-blue-400">
@@ -59,16 +59,16 @@ function Orders({ darkMode, setDarkMode }) {
               <div className="loading flex flex-row justify-between items-center cursor-pointer gap-2 bg-green-200 rounded-pill p-1">
                 <h4>قيد التنفيذ</h4>
                 <span>0</span>
-                <IoMdCloseCircleOutline className="text-red-500 text-xl"  />
+                <IoMdCloseCircleOutline className="text-red-500 text-xl" />
               </div>
             </div>
-            <button className="text-black flex flex-row items-center gap-2 border border-2 border-green-900 rounded-md">
+            <button className="text-black flex flex-row items-center gap-2  border-2 border-green-900 rounded-md">
               <span> <PiMagicWand /> </span>
               تحرير سريع
             </button>
           </div>
           <div className="body py-4 px-2 cursor-pointer">
-          <p>لا توجد طلبات بعد</p>
+            <p>لا توجد طلبات بعد</p>
 
           </div>
         </div>
