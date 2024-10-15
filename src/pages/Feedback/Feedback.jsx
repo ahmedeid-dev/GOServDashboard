@@ -1,14 +1,14 @@
 import React from "react";
-import Sidebar from "../../components/Sidebar";
-import Navbar from "../../components/Navbar";
-import Helper from "../../components/Helper";
-import HeaderComponent from './../Products/component/HeaderComponent';
 import { CiCircleQuestion, CiFilter } from "react-icons/ci";
-import profile from "./../../assets/avatar_male.webp"
-import { RiDeleteBin5Line } from "react-icons/ri";
-import { FaCheck } from "react-icons/fa";
+import { FaCheck, FaStar } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import { MdOutlineReply } from "react-icons/md";
+import { RiDeleteBin5Line } from "react-icons/ri";
+import Helper from "../../components/Helper";
+import Navbar from "../../components/Navbar";
+import Sidebar from "../../components/Sidebar";
+import profile from "./../../assets/avatar_male.webp";
+import HeaderComponent from './../Products/component/HeaderComponent';
 
 export default function Feedback({ darkMode, setDarkMode }) {
     return (
@@ -52,6 +52,13 @@ export default function Feedback({ darkMode, setDarkMode }) {
                                 </div>
                                 <div className="name flex flex-col gap-3 items-center">
                                     <h4 className="text-green-400">UserName</h4>
+                                    <h5 className="flex flex-row">
+                                        <FaStar className="text-orange-500" />
+                                        <FaStar className="text-orange-500" />
+                                        <FaStar className="text-orange-500" />
+                                        <FaStar className="text-orange-500" />
+                                        <FaStar className="text-orange-500" />
+                                    </h5>
                                     <h6>Title</h6>
                                 </div>
                             </div>
@@ -65,22 +72,22 @@ export default function Feedback({ darkMode, setDarkMode }) {
                                     </button>
                                     <button className="text-black border border-green-500 rounded-md overflow-hidden p-3 flex flex-row items-center gap-3">
                                         <span>
-                                            <IoMdClose className="text-xl"  />
+                                            <IoMdClose className="text-xl" />
                                         </span>
                                         غير منشور
                                     </button>
                                     <button className="text-black border border-green-500 rounded-md overflow-hidden p-3 flex flex-row items-center gap-3">
                                         <span>
-                                            <MdOutlineReply  className="text-xl"  />
+                                            <MdOutlineReply className="text-xl" />
                                         </span>
                                         الرد
                                     </button>
-                            </div>
+                                </div>
                                 <div className="delete">
                                     <button className="border border-red-500 rounded-md overflow-hidden p-3">
                                         <RiDeleteBin5Line className="text-red-500 text-3xl" />
                                     </button>
-                            </div>
+                                </div>
                             </div>
                         </div>
                     </div>
