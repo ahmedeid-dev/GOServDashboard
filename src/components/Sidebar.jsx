@@ -187,13 +187,13 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link to="#" className="sidebarLink ">
+            <Link to="/profilePages" className="sidebarLink ">
               <LuNewspaper />
               الصفحات التعريفية
             </Link>
           </li>
           <li>
-            <Link to="#" className="sidebarLink ">
+            <Link to="/marketing" className="sidebarLink ">
               <TbSpeakerphone />
               الأدوات التسويقية
             </Link>

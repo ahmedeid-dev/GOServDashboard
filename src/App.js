@@ -9,6 +9,8 @@ import Clients from "./pages/Clients/Clients";
 import Reports from "./pages/Reports/Reports";
 import NotFound from "./pages/NotFound/NotFound";
 import Feedback from "./pages/Feedback/Feedback";
+import ProfilePages from "./pages/ProfilePages/ProfilePages";
+import Marketing from "./pages/Marketing/Marketing";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -41,6 +43,14 @@ function App() {
         <Route
           path="/feedback"
           element={<Feedback darkMode={darkMode} setDarkMode={setDarkMode} />}
+        />
+        <Route
+          path="/profilePages"
+          element={<ProfilePages darkMode={darkMode} setDarkMode={setDarkMode} />}
+        />
+        <Route
+          path="/marketing"
+          element={<Marketing darkMode={darkMode} setDarkMode={setDarkMode} />}
         />
         <Route path="*" element={<NotFound darkMode={darkMode} setDarkMode={setDarkMode} />} />
       </Routes>
